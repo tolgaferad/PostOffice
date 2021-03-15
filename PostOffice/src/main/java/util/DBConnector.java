@@ -28,7 +28,7 @@ public class DBConnector {
     }
 
     private void initConnection() throws SQLException {
-        connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/snimai_me", "root", "Tolga123");
+        connection = DriverManager.getConnection("jdbc:***", "**** "*****");
     }
 
     public Connection getConnection(){
